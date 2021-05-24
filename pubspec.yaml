@@ -1,0 +1,45 @@
+name: rider_app
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^1.0.1
+  firebase_auth: ^1.0.1
+  firebase_database: ^6.1.0
+  fluttertoast: ^7.1.8
+  google_maps_flutter: ^2.0.1
+  cupertino_icons: ^1.0.2
+  geolocator: ^7.0.1
+  http: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - images/
+
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: fonts/Signatra.ttf
+    - family: Brand-Regular
+      fonts:
+        - asset: fonts/bolt-regular.ttf
+    - family: Brand Bold
+      fonts:
+        - asset: fonts/bolt-semibold.ttf
+
